@@ -1,0 +1,53 @@
+
+/**{outline: 1px solid red;}*/
+
+header, section {  
+    width: 1024px;
+    margin: 0 auto;
+       }   
+
+header { display: flex;
+background-color: rgba(88, 87, 87, 0.555);
+padding-top: 10px;
+color: white;
+}
+
+section { background: url(fondo.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;}
+
+ul {list-style: square;}
+
+li {padding: 2px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 120px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.encabezado { font-family: 'Roboto', sans-serif;
+text-align:justify;
+}
+
+fieldset { margin-top: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  
+}
+
+legend { font-weight: bold;
+font-size: 20px;
+border: 1px solid darkgrey;
+border-radius: 10px;
+background-color: rgb(80, 80, 80);
+color: white;
+}
+
+footer { text-align: center;
+    font-size: 20px;
+margin-top: 20px;}
